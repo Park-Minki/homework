@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #faf8f8;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 85%;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 15px 2px #d1d1d1;
+    margin: 10vh 0 0;
+    padding: 2rem 1rem;
+    background-color: white;
+}
+.login-box{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 20px;
+}

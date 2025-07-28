@@ -1,0 +1,30 @@
+@charset 'UTF-8';
+
+.todo-item {
+    display: flex;
+    gap: 1px;
+    height: 70px;
+    width: 100%;
+    border-radius: 7px;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: white;
+}
+
+.todo-item.done {
+    background-color: #e2e2e2;
+}
+
+.todo-content {
+    flex: 2;
+}
+
+.todo-checkbox {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.todo-buttons {
+    flex: 2;
+    text-align: end;
+}

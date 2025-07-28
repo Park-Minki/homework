@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+
+.editor{
+    display: flex;
+    width: 100%;
+}
+.in-txt{
+    flex: 8;
+}
+.in-txt input{
+    width: 100%;
+}
+.input-btn{
+    flex: 2;
+    text-align: right;
+}
